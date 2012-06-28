@@ -1,0 +1,5 @@
+Session.vim
+.DS_Store
+*.vim
+*.swp
+.sass-cache
