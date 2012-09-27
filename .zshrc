@@ -17,7 +17,7 @@ ZSH_THEME="chadkeck"
 DISABLE_LS_COLORS="true"
 
 # Uncomment following line if you want to disable autosetting terminal title.
-# DISABLE_AUTO_TITLE="true"
+DISABLE_AUTO_TITLE="true"
 
 # Uncomment following line if you want red dots to be displayed while waiting for completion
 # COMPLETION_WAITING_DOTS="true"
@@ -88,3 +88,7 @@ export PATH=/usr/local/git/bin:$PATH
 export PYTHONSTARTUP=$HOME/.pythonrc.py
 export TODOTXT_DEFAULT_ACTION=ls
 export LD_LIBRARY_PATH=$HOME/local/lib:$LD_LIBRARY_PATH
+
+# solarized light dircolors
+# note: on OS X you need to install GNU ls using `brew install coreutils`
+eval `dircolors ~/.dir_colors`
