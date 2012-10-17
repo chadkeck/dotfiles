@@ -30,7 +30,6 @@ Bundle 'FuzzyFinder'
 Bundle 'matchit.zip'
 Bundle 'SuperTab-continued.'
 "Bundle 'rails.vim'
-Bundle 'wincent/Command-T'
 "Bundle 'majutsushi/tagbar'
 Bundle 'Indent-Guides'
 
