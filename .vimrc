@@ -87,11 +87,6 @@ map ,p :cp<CR>
 "let g:ctags_regenerate = 0
 map <C-\> :tab split<CR>:exec("tag ".expand("<cword>"))<CR>
 
-
-" Command-T
-map <C-t> :CommandT<CR>
-let g:CommandTMaxHeight = 15
-
 " fugitive
 map <C-g> :Gstatus<CR>:res +30<CR>
 
