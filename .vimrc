@@ -86,6 +86,7 @@ map ,p :cp<CR>
 " ctags stuff
 "let g:ctags_regenerate = 0
 map <C-\> :tab split<CR>:exec("tag ".expand("<cword>"))<CR>
+set tags=./tags;/ " look up until a tags file is found
 
 " fugitive
 map <C-g> :Gstatus<CR>:res +30<CR>
