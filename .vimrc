@@ -28,10 +28,15 @@ Bundle 'Lokaltog/vim-easymotion'
 Bundle 'L9'
 Bundle 'FuzzyFinder'
 Bundle 'matchit.zip'
+Bundle 'pangloss/vim-javascript'
+
+Bundle 'Tagbar'
+nmap <F8> :TagbarToggle<cr>
+
 Bundle 'ctrlp.vim'
 Bundle 'SuperTab-continued.'
 "Bundle 'rails.vim'
-"Bundle 'majutsushi/tagbar'
+Bundle 'majutsushi/tagbar'
 Bundle 'Indent-Guides'
 Bundle 'groenewege/vim-less'
 
@@ -88,6 +93,11 @@ map ,p :cp<CR>
 "let g:ctags_regenerate = 0
 map <C-\> :tab split<CR>:exec("tag ".expand("<cword>"))<CR>
 set tags=./tags;/ " look up until a tags file is found
+map <C-I> :TagbarToggle<CR>
+let g:tagbar_type_javascript = {
+            \ 'ctagsbin' : '/usr/local/bin/jsctags'
+            \ }
+
 
 " fugitive
 map <C-g> :Gstatus<CR>:res +30<CR>
