@@ -116,6 +116,9 @@ let g:syntastic_enable_signs = 1
 let g:syntastic_auto_jump = 0
 let g:syntastic_enable_highlighting = 1
 let g:syntastic_stl_format = '[%E{Err: %fe #%e}%B{, }%W{Warn: %fw #%w}]'
+let g:syntastic_auto_loc_list=1
+let g:syntastic_error_symbol='✗'
+let g:syntastic_warning_symbol='⚠'
 
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
