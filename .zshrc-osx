@@ -96,3 +96,4 @@ export LD_LIBRARY_PATH=$HOME/local/lib:$LD_LIBRARY_PATH
 eval `dircolors ~/.dir_colors`
 
 alias sniff="sudo ngrep -W byline -d 'en0' -t '^(GET|POST) ' 'tcp and port 80'"
+unset LD_LIBRARY_PATH
