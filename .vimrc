@@ -142,6 +142,7 @@ autocmd FileType haml setlocal shiftwidth=2 tabstop=2
 autocmd FileType ruby setlocal shiftwidth=2 tabstop=2
 autocmd FileType coffee setlocal shiftwidth=2 tabstop=2
 autocmd FileType cpp setlocal shiftwidth=2 tabstop=2
+autocmd FileType javascript setlocal shiftwidth=2 tabstop=2
 autocmd FileType less setlocal shiftwidth=2 tabstop=2
 
 let g:EasyMotion_leader_key = ','
